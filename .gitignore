@@ -1,0 +1,38 @@
+# --- secrets ---
+.env
+backend/.env
+*.env
+!.env.example
+!backend/.env.example
+
+# --- database ---
+*.db
+*.sqlite
+*.sqlite3
+revenue_recovery.db
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# --- virtual environments ---
+venv/
+env/
+.venv/
+backend/venv/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- logs ---
+*.log
+uvicorn.log
